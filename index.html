@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main__body">
+      <section class="section-results">
+        <div class="results">
+          <h3 class="results__title">Your Result</h3>
+          <div class="results__score">
+            <span class="score">76</span>
+            <span class="outof">of 100</span>
+          </div>
+          <div class="results__text">
+            <h2>Great</h2>
+            <p>
+              You scored higher than 65% of the people who have taken these
+              tests .
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-summary">
+        <div class="summary">
+          <h3 class="summary__title">Summary</h3>
+          <div class="summary__cards">
+            <div class="scores-card scores-card-1">
+              <img
+                class="scores-card__icon"
+                src="/assets/images/icon-reaction.svg"
+                alt=""
+              />
+              <span class="scores-card__name scores-card__name-1"
+                >Reaction</span
+              >
+              <div class="scores-card__final-score"><span>80 </span> / 100</div>
+            </div>
+            <div class="scores-card scores-card-2">
+              <img
+                class="scores-card__icon"
+                src="/assets/images/icon-memory.svg"
+                alt=""
+              />
+              <span class="scores-card__name scores-card__name-2">Memory</span>
+              <div class="scores-card__final-score"><span>92 </span> / 100</div>
+            </div>
+            <div class="scores-card scores-card-3">
+              <img
+                class="scores-card__icon"
+                src="/assets/images/icon-verbal.svg"
+                alt=""
+              />
+              <span class="scores-card__name scores-card__name-3">Verbal</span>
+              <div class="scores-card__final-score"><span>61 </span> / 100</div>
+            </div>
+            <div class="scores-card scores-card-4">
+              <img
+                class="scores-card__icon"
+                src="/assets/images/icon-visual.svg"
+                alt=""
+              />
+              <div class="scores-card__name scores-card__name-4">Visual</div>
+              <div class="scores-card__final-score"><span>72</span> / 100</div>
+            </div>
+          </div>
+
+          <button class="btn-continue">Continue</button>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://twitter.com/aggepapDEV">Aggelos Papanagiotou</a>.
+    </div>
+  </body>
+</html>
